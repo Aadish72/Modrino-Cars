@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.header-info  ul{
+    list-style: none;
+    
+}
+.header-info ul li a{
+    text-decoration: none;
+    color: white;
+}
+ .header-info ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.header-info {
+    width: 40%;
+    font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.header-section {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    
+}
+.body-section {
+    margin-top: 30px;
+}
+.carrera-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.prosche-logo {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-around;
+}
+.car-model-img {
+    margin-top: 120px;
+    
+}
+.car-model {
+    position: absolute;
+    top: 48%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgba(128, 0, 0, 0.2); /* Transparent dark red */
+    z-index: 1;
+  }
+  
+.car-img  {
+    width: 100%;
+    display: block;
+    z-index: 2;
+    position: relative; /* Default relative to stack above text */
+  }
+  .footer-section {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.speed {
+    margin-top: 15px;
+}
+.real-power {
+    margin-top: 15px;
+}
+.torque {
+    margin-top: 15px;
+    
+}
+.real-displacement {
+    margin-top: 15px;
+}
+.section-1{
+    background-color: palevioletred;
+}
+.section-2{
+    background-color: burlywood;
+}
+.section-3{
+    background-color: plum;
+}
+.bio ul li a{
+    text-decoration: none;
+    color: black;
+}
+.bio ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.title {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title-bio {
+    margin-top: 80px;
+}
+.bio {
+   margin-top: 3%;
+   font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ .bio ul li {
+    padding-right: 90px;
+}
+.second-page-line {
+    padding-left: 120px;
+}
+.body-background-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.rr-image-heading-button{
+    z-index: 2;
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+    
+}
+.img-rr {
+    padding-top: 80px;
+}
+.rr-heading-button {
+    position: absolute;
+    z-index: 2;
+    bottom: 300px;
+    right: 750px;
+    top: 40px;
+}
+.rr-heading{
+    color: aliceblue;
+    width: 142px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.rr-button  {
+    margin-top: 50px;
+       
+}
+.rr-button button {
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 0ic;
+    border-color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    font-size: medium;
+}
+.other-cars {
+    margin-top: 10px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.price-carmodel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+.ferari-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+.ferari-details{
+    background-color: #212838;
+    width: 275px;
+    color: aliceblue;
+    border-radius: 0cqh;
+}
+.model-one {
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.ferari-sponsor {
+    padding-left: 10px;
+    color: lightslategray;
+    padding-bottom: 10px;
+}
+.ferari-sponsorimg {
+    padding-bottom: 10px;
+}
+.services-car{
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px;
+    text-align: center;
+}
+.brand-bio-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.brands-bio-heading-button {
+    background-color: #212838;
+    color: aliceblue;
+    width: 28%;
+    height: 400px;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 15px;
+    
+}
+.brands-bio {
+    width: 80%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.brand-bio-second {
+    width: 70%;
+    margin-top: 20px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ 
+}
+
+.brands-button {
+    margin-top: 40px;
+   
+   
+}
+.button-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands-button-image {
+    padding-right: 250px;
+    margin-top: 40px;
+}
+.brands-button button {
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.brands-heading {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.brand-img img {
+    width: 98%;
+    height: 400px;
+    padding-left: 30px;
+}
+.gaadi-img img{
+    width: 98%;
+    height: 400px;
+    padding-right: 20px;
+   
+}
+.brand2-bio-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-last-section {
+    margin-top: 40px;
+}
+.img-list-last{
+    display: flex;
+    align-items: baseline;
+    justify-content: start;
+}
+.list-last ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+   color: white;
+}
+.list-last ul li {
+    padding-right: 100px;
+}
+.footer-last-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+.image-modrino{
+    color: white;
+}
